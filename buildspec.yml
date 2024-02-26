@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions
+    commands:
+  pre_build:
+    commands:
+      
+  build:
+    commands:     
+      
+  post_build:
+    commands:
+      - aws s3 sync . s3://bucket-test12376
